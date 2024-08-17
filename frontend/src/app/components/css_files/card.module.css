@@ -1,0 +1,24 @@
+.body {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.formContainer {
+  margin-bottom: 20px;
+}
+
+/* No separate class for carousel container */
+
+/* Positioning the carousel using padding */
+.carousel {
+  padding-top: 100px; /* Adjust to move the carousel vertically */
+}
+
+/* Card container styling remains the same */
+.flashCardContainer {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center; /* Center the content inside the card */
+}

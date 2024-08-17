@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 30%;
+
 }
 
 .inputField {
@@ -17,6 +18,13 @@
     background-color: #333;  /* Dark background for better visibility */
     color: white;  /* Text color */
 }
+
+.carouselContainer {
+    transform: translateY(-140%); /* Move upwards by 50px */
+    margin-bottom: 20px;
+}
+
+
 
 
 .submitButton {
@@ -33,4 +41,19 @@
 
 .submitButton:hover {
     background-color: #0056b3;
+}
+
+
+.button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    position: absolute;
+    left:48.5%;
+    margin-top: 1%;
 }
