@@ -64,7 +64,17 @@ export default function FlashCard({ Question, Answer }) {
         <Typography sx={{ fontSize: 18, fontWeight: 'bold' }} color="white" gutterBottom>
           {Question}
         </Typography>
-        <Button size="small"  variant="body2" color="white" margin='10%' fontSize='20px' onClick={handleSubmit}>{text}</Button>
+        <Button size="small"  variant="body2" color="white" margin='10%' fontSize='20px'
+        style={{
+            backgroundColor:'white',
+            color:'black',
+            
+
+
+        }}  
+        
+        
+        onClick={handleSubmit}>{text}</Button>
         <Typography variant="body2" color="white" margin='10%' fontSize='20px'>
           {display}
         </Typography>

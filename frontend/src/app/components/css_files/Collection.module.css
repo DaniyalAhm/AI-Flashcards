@@ -1,0 +1,35 @@
+/* Collection.module.css */
+
+/* Container for the entire collection */
+.collectionContainer {
+    display: flex;
+    padding: 20px;
+}
+
+/* Each card in the collection */
+.card {
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Title inside each card */
+.cardTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Question and Answer styling */
+.cardContent {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Optional: Add hover effect */
+.card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
