@@ -15,7 +15,7 @@ export default function Basic_Cards({ Title, cards }) {
 
     return (
         <div>
-            {!open &&
+            {
             (      <Card sx={{
                 maxWidth: 345,
                 height: 400,
@@ -34,7 +34,7 @@ export default function Basic_Cards({ Title, cards }) {
                         {Title}
                     </Typography>
                     <hr style={{ marginBottom: '20px', width: '200%' }}></hr>
-              {/*      <Button 
+                    <Button 
                         size="medium"  
                         variant="body2" 
                         color="white" 
@@ -46,7 +46,7 @@ export default function Basic_Cards({ Title, cards }) {
                             marginTop: '20px'
                         }}>
                         Learn More
-                    </Button>*/}
+                    </Button>
                 </CardContent>
             </Card>
 )

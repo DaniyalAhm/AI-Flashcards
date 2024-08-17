@@ -7,6 +7,8 @@ import styles from './css_files/card.module.css'
 import Button from '@mui/material/Button';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import { Textfit } from 'react-textfit';
+
 export default function FlashCard({ Question, Answer }) {
   const [Revealed, setReveal] = useState(false)
   const [display, setDisplay] = useState('')
@@ -75,9 +77,16 @@ export default function FlashCard({ Question, Answer }) {
         
         
         onClick={handleSubmit}>{text}</Button>
-        <Typography variant="body2" color="white" margin='10%' fontSize='20px'>
+        <Textfit 
+          mode="multi" 
+          max={20} 
+          style={{
+            color: 'white',
+            marginTop: '10%',
+          }}
+        >
           {display}
-        </Typography>
+        </Textfit>
       </CardContent>
       <CardActions>
         {/* Actions can be added here if needed */}

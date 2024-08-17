@@ -14,9 +14,7 @@ export default function Header() {
             <Link href={'/AI'} className={styles.a}>
                Make Flashcards with A.I
             </Link>
-            <Link href={'/Browse'} className={styles.a}>
-                Browse
-            </Link>
+
 
             <Link href={'/Sign'} className={styles.a}>
                 Sign up or Login
