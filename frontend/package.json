@@ -21,7 +21,9 @@
     "react-material-ui-carousel": "^3.4.2",
     "react-router-dom": "^6.26.1",
     "react-textfit": "^1.1.1",
-    "styled-components": "^6.1.12"
+    "styled-components": "^6.1.12",
+    "@clerk/clerk-js": "^5.14.1",
+    "@clerk/nextjs": "^5.3.1"
   },
   "devDependencies": {
     "@types/node": "^20",
