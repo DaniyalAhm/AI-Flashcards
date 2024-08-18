@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import styles from './css_files/header.module.css'; 
+import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 
 export default function Header() {
     return (
@@ -15,10 +16,18 @@ export default function Header() {
                Make Flashcards with A.I
             </Link>
 
-
-            <Link href={'/Sign'} className={styles.a}>
-                Sign up or Login
-            </Link>
+            <SignedIn>
+                <UserButton />
+            </SignedIn>
+            <SignedOut>
+                <Link href={'/sign-in'} className={styles.a}>
+                    Login
+                </Link>
+                <Link href={'/sign-up'} className={styles.a}>
+                    Sign up 
+                </Link>
+            </SignedOut>
+           
         </div>
     );
 }
