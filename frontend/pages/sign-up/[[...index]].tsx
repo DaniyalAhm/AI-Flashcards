@@ -1,5 +1,5 @@
 import { SignUp } from '@clerk/nextjs'
-import { Box, Container } from '@mui/material'
+import { Box, Container, Typography } from '@mui/material'
 
 export default function Page() {
   return (
@@ -10,7 +10,9 @@ export default function Page() {
         justifyContent: 'center',
       }}>
         <Container maxWidth='sm' sx={{backgroundColor:'white'}}>
-
+            <Typography variant='h3' color='#007BFF' sx={{mb:4}}>
+                Sign up
+            </Typography>
             <SignUp />
         </Container>
          
