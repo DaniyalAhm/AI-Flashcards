@@ -28,6 +28,8 @@ export default function Basic_Cards({ Title, cards }) {
                 },
                 p: 5,
                 mb: "30px !important",
+
+                
             }}>
                 <CardContent>
                     <Typography sx={{ fontSize: 24, fontWeight: 'bold' }} color="white" gutterBottom>
@@ -44,6 +46,7 @@ export default function Basic_Cards({ Title, cards }) {
                             backgroundColor: 'white',
                             color: 'black',
                             marginTop: '20px'
+                            
                         }}>
                         Learn More
                     </Button>

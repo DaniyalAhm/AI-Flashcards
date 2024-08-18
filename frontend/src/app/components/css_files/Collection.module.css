@@ -3,9 +3,13 @@
 /* Container for the entire collection */
 .collectionContainer {
     display: flex;
+    flex-wrap: wrap; /* Ensure that the cards wrap to the next line instead of overflowing */
     padding: 20px;
+    margin-left: 10px;
+    max-width: 100%; /* Ensure the container doesn't exceed the screen width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    overflow: hidden; /* Prevent overflow */
 }
-
 /* Each card in the collection */
 .card {
     padding: 15px;

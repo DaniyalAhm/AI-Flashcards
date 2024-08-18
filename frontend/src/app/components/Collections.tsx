@@ -32,7 +32,7 @@ export default function Collection(){
 
     return (
 
-        <div className={styles.collectionContainer}>
+        <div className={styles.collectionContainer } style={{padding:'100px'}} >
 
     {titles.map((title ,index) =>{
                 return(
