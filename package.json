@@ -9,6 +9,7 @@
   "author": "Daniyal, Ralph, Sanjana, Faith",
   "license": "ISC",
   "dependencies": {
-    "mui": "^0.0.1"
+    "mui": "^0.0.1",
+    "react-textfit": "^1.1.1"
   }
 }
